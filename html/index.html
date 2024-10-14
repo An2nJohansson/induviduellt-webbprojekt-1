@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="se">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www info</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="top"></div>
+    
+    <header>
+        <!--Navigeringsmeny-->
+        <div class="top-nav">
+            <div> <!--BIld av <a href="https://pixabay.com/sv/users/kropekk_pl-114936/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=350194">Anna</a> från <a href="https://pixabay.com/sv//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=350194">Pixabay</a>-->
+                <a href="index.html"><img src="images/www-350194_640.png" alt="WWW logotype" height="45em"></a>
+                
+            </div>
+            
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-button-container">
+                <div class="menu-button"></div>
+            </label>
+    
+            <ul class="menu">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="utveckling.html">Internets utveckling</a></li>
+                <li><a href="agila-metoder.html">Agila metoder</a></li>
+                <li><a href="handalse.html">Händelse</a></li>
+                <li><a href="#footer">Om oss/Kontakt</a></li>
+            </ul>
+    
+        </div>
+
+        <div class="biglogo"> <!--BIld av <a href="https://pixabay.com/sv/users/kropekk_pl-114936/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=350194">Anna</a> från <a href="https://pixabay.com/sv//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=350194">Pixabay</a>-->
+            <a href="images/www-350194_640.png" download>
+            <img src="images/www-350194_640.png" alt="WWW logotype" height="192" download></a>
+            <p>Tryck på loggan ovan för att ladda ned filen för bilden.</p>
+        </div>
+
+    </header>
+
+<div class="container"> 
+
+    <section class="welcome">
+        <h1>Välkommen till <mark>WWW info</mark></h1>
+        <p>
+            Denna webbsida innehåller fakta och information gällande
+            internets tekniska <br> utveckling, en viktig händelse som påverkat
+            internets utveckling och historia <br> samt hur man driver ett 
+            webbprojekt med agil projektmetodik. <br><br>
+            I toppen av sidan finner du en meny där du enkelt kan ta dig till önskat innehåll <br>
+            på sidan. Besöker du sidan på mobila/mindre enheter når du enkelt menyn<br>
+            via den vita knappen längst upp till höger. 
+        </p>
+    </section>
+
+    <!--inbäddad video-->
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7OQ_tOAJWAA?si=UN4EN0wRM_cC5Q3n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <!--Formulär för nyhetsbrev-->
+    <section class="news-form">
+    <div>
+        <h3>Anmäl dig till nyhetsbrev om sidan uppdateras!</h3>
+        
+        <form>
+            <label for="fname">Full name</label> <br>
+            <input type="text" name="fname" id="fname" placeholder="Exempel: Steve Jobs"> <br>
+            <label for="email">E-mail adress</label> <br>
+            <input type="text" name="email" id="email" placeholder="exempel@hotmail.com"> <br>
+            <input type="submit" id="submit" value="SKICKA">
+        </form>
+    </div>
+
+    </section>
+
+</div> <!--container div-->
+
+<footer>
+    <div id="footer">
+        <div class="about">
+            <h2><strong>Om oss</strong></h2>
+            <p> Jag som skapat <em>WWW INFO</em> heter Anton Johansson 
+                och jag är en studerande webbutvecklare bosatt i Örnsköldsvik, 
+                detta är mitt första webbprojekt och fler ska det bli
+                i framtiden!
+            </p>
+        </div>
+
+        <div class="contact">
+            <h2><strong>Kontakt</strong></h2>
+            <p><strong>E-mail adress:</strong> an2n_johansson@outlook.com <br>
+            <strong>Telefon nummer:</strong> 070-330 6884 <br>
+            <strong>Flaskpost:</strong> Örnsköldsviks hamn 
+            </p> 
+            
+        </div>
+        <div class="toppknapp">
+        <button class="toppen"><a href="#top">Tillbaka till toppen</a></button>
+        </div>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
