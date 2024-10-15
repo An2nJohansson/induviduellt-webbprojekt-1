@@ -2,7 +2,7 @@
 html, body {
     margin: 0;
     height: 100%;
-    background-color: #ffffff;
+    background: linear-gradient(to left, #000dffb7, #00ffd0);
     display: flexbox;
     border: 0px solid black;
 }
@@ -151,7 +151,7 @@ html, body {
 } 
 
 /*div som täcker hela sidan */
-.container {
+.container-index {
     border: 0px solid #000000;
     
     
@@ -168,6 +168,7 @@ html, body {
     background: linear-gradient(to left, #000dffb7, #00ffd0);
     border: 0px solid black;
     border-bottom: 1px solid black;
+    
 
 }
 
@@ -252,6 +253,7 @@ html, body {
         border-bottom: 0px solid black;
         background: linear-gradient(to left, #000dffb7, #00ffd0);
         display: flexbox;
+        
     }
 
     .about {
@@ -298,12 +300,68 @@ html, body {
 /*innehåll på sidan internets utveckling*/
 .utveckling {
     background: linear-gradient(to left, #000dffb7, #00ffd0);
-    border: 2px solid black;
+    border: 2px solid rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.historia-heading {
+    background: linear-gradient(to left, #000dffb7, #00ffd0);
+    display: flex;
+    justify-content: center;
+    border: 0px solid black;
+    margin: 0;
+    margin-top: 1em;
     
 }
 
-.historia {
+.article-container {
+    display: flex;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 35px;
+    width: 70%;
+    padding: 1em 1em 1em 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.content {
+    border: 2px solid black;
+    width: 50%;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+
+.bilder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 50%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+   
+}
+
+.bilder img {
+    max-width: 15em;
+    min-width: 10em;
+    border-radius: 35px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.source {
+    border: 2px solid black;
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
     display: flex;
     justify-content: center;
-    border: 2px solid black;
+    align-items: center;
+    flex-direction: column;
 }
