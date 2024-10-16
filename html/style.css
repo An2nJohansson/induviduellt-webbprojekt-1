@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway"); 
 html, body {
     margin: 0;
-    height: 100%;
+    height: 100vc;
     background: linear-gradient(to left, #000dffb7, #00ffd0);
     display: flexbox;
     border: 0px solid black;
@@ -80,28 +80,28 @@ html, body {
 }
 
 
-.menu {
-    flex-wrap: wrap;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+    .menu {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
 
-.menu > li {
-    overflow: hidden;
-    margin-right: 15px;
-    margin-left: 15px;
-    display: flex;
-    
-}
+    .menu > li {
+        overflow: hidden;
+        margin-right: 15px;
+        margin-left: 15px;
+        display: flex;
+        
+    }
 
-/* Media queries för mobila enheter */
-@media (max-width: 700px)
-{ 
+    /* Media queries för mobila enheter */
+    @media (max-width: 700px)
+    { 
 
     .menu-button-container {
     display: flex;
@@ -139,10 +139,8 @@ html, body {
         padding: 0 0;
         width: 100%;
         color: #ffffff;
-        background-color: #4a53ff;
-        background: linear-gradient(to left, #000dffb7, #00ffd0);
+        background: linear-gradient(to left, #000dffdb, #00ffd0);
         
-       
     }
 
     .menu-toggle:checked ~ .menu li:not(:last-child) {
@@ -165,7 +163,6 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to left, #000dffb7, #00ffd0);
     border: 0px solid black;
     border-bottom: 1px solid black;
     
@@ -179,18 +176,17 @@ html, body {
     align-items: center;
     padding-left: 1em;
     padding-right: 1em;
-    background: linear-gradient(to left, #000dffb7, #00ffd0);
+    
 }
 
 .video {
     display: flex;
     justify-content: center;
-    background: linear-gradient(to left, #000dffb7, #00ffd0);
+    
 }
 
 /* formulär för nyhetsbrev */
 .news-form {
-    background: linear-gradient(to left, #000dffb7, #00ffd0);
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -198,7 +194,7 @@ html, body {
     align-items: flex-end;
     padding-left: 1em;
     padding-right: 1em;
-    border-bottom: 1px solid black;
+    border-bottom: 0px solid black;
     border-top: 1px solid black;
     
 }
@@ -242,64 +238,72 @@ html, body {
 #submit:hover {
     box-shadow: none;
     color: green;
-    }
+}
 
-    /* footer, om oss och kontakt */
+/* footer, om oss och kontakt */
 
-    #footer {
-        position: absolute;
-        width: 100%;
-        border: 0px solid black;
-        border-bottom: 0px solid black;
-        background: linear-gradient(to left, #000dffb7, #00ffd0);
-        display: flexbox;
-        
-    }
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #000dffb7, #00ffd0);
+    border-top: 1px solid black;
+}
 
-    .about {
-        float: left;
-        width: 50%;
-        border: 0px solid black;
-        border-right: 1px solid black;
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-
-    .contact {
-        float: right;
-        width: 50%;
-        border: 0px solid black;
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-
-    .toppen {
-        background-color: #e6e6e6;
-        width: 100%;
-        height: 3em;
-        margin-bottom: 2em;
-        margin-top: 2em;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 50px;
-        border: none;
-        box-shadow: 2px 4px 9px #000000d4, -2px -4px 9px #ffffffb3;
-        cursor: pointer;
-        pointer-events: painted;
-        transition: 0.5s;
-        font-weight: 1000;
+#footer {
     
-    }
+    width: 100%;
+    border: 0px solid black;
+    border-bottom: 0px solid black;
+}
 
-    .toppen:hover {
-        box-shadow: none;
-        
-        }
+.about {
+    float: left;
+    width: 50%;
+    border: 0px solid black;
+    border-right: 1px solid black;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.contact {
+    float: right;
+    width: 50%;
+    border: 0px solid black;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.toppen {
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 3em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 2px 4px 9px #000000d4, -2px -4px 9px #ffffffb3;
+    cursor: pointer;
+    pointer-events: painted;
+    transition: 0.5s;
+    font-weight: 1000;
+
+}
+
+.toppen:hover {
+    box-shadow: none;
+}
+
+.toppknapp {
+    
+}
 
 
 /*innehåll på sidan internets utveckling*/
 .utveckling {
-    background: linear-gradient(to left, #000dffb7, #00ffd0);
     border: 0px solid rgb(255, 0, 0);
     display: flex;
     flex-direction: column;
@@ -308,7 +312,6 @@ html, body {
 }
 
 .historia-heading {
-    background: linear-gradient(to left, #000dffb7, #00ffd0);
     display: flex;
     justify-content: center;
     border: 0px solid black;
@@ -319,12 +322,13 @@ html, body {
 
 .article-container {
     display: flex;
-    border: 2px solid rgb(255, 255, 255);
+    border: 0px solid black;
     border-radius: 35px;
     width: 70%;
     padding: 1em 1em 1em 1em;
     margin-top: 1em;
     margin-bottom: 1em;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 .content {
@@ -338,12 +342,13 @@ html, body {
 .article-container-agil {
     display: flex;
     flex-direction: column;
-    border: 2px solid rgb(255, 255, 255);
+    border: 0px solid black;
     border-radius: 35px;
     width: 70%;
     padding: 1em 1em 1em 1em;
     margin-top: 1em;
     margin-bottom: 1em;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 .content-agil {
@@ -376,7 +381,6 @@ html, body {
     width: 50%;
     padding-top: 1em;
     padding-bottom: 1em;
-   
 }
 
 .bilder img {
@@ -385,7 +389,6 @@ html, body {
     border-radius: 35px;
     padding-top: 1em;
     padding-bottom: 1em;
-    
 }
 
 .source {
