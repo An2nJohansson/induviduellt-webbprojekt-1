@@ -354,6 +354,19 @@ html, body {
     
 }
 
+.bilder-agil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.bilder-agil img{
+    max-width: 15em;
+    min-width: 10em;
+    border-radius: 35px;
+}
+
 .bilder {
     display: flex;
     flex-direction: column;
