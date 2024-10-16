@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway"); 
 html, body {
     margin: 0;
-    height: 100vc;
     background: linear-gradient(to left, #000dffb7, #00ffd0);
     display: flexbox;
     border: 0px solid black;
@@ -80,24 +79,26 @@ html, body {
 }
 
 
-    .menu {
-        flex-wrap: wrap;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
+.menu {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
-    .menu > li {
-        overflow: hidden;
-        margin-right: 15px;
-        margin-left: 15px;
-        display: flex;
-        
-    }
+.menu > li {
+    overflow: hidden;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex;
+    
+}
+
+
 
     /* Media queries för mobila enheter */
     @media (max-width: 700px)
@@ -317,7 +318,8 @@ html, body {
     border: 0px solid black;
     margin: 0;
     margin-top: 1em;
-    
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .article-container {
@@ -363,7 +365,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 35px;
+    
 }
 
 .bilder-agil img{
