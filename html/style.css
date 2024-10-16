@@ -300,7 +300,7 @@ html, body {
 /*innehåll på sidan internets utveckling*/
 .utveckling {
     background: linear-gradient(to left, #000dffb7, #00ffd0);
-    border: 2px solid rgb(255, 0, 0);
+    border: 0px solid rgb(255, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -328,8 +328,27 @@ html, body {
 }
 
 .content {
-    border: 2px solid black;
+    border: 0px solid black;
     width: 50%;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+
+.article-container-agil {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 35px;
+    width: 70%;
+    padding: 1em 1em 1em 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.content-agil {
+    border: 0px solid black;
+    width: 90%;
     padding-left: 1em;
     padding-right: 1em;
     
@@ -340,7 +359,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 0px solid black;
     width: 50%;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -353,10 +372,11 @@ html, body {
     border-radius: 35px;
     padding-top: 1em;
     padding-bottom: 1em;
+    
 }
 
 .source {
-    border: 2px solid black;
+    border: 0px solid black;
     width: 100%;
     padding-left: 1em;
     padding-right: 1em;
