@@ -303,7 +303,8 @@ html, body {
 }
 
 
-/*innehåll på sidan internets utveckling*/
+/*klasser för innehåll och bilder på internets utveckling, 
+företag och agila metoder*/
 .utveckling {
     border: 0px solid rgb(255, 0, 0);
     display: flex;
