@@ -5,7 +5,6 @@ html, body {
     background-size: 100vmax;
     display: flexbox;
     border: 0px solid black;
-    
 }
 
 * {
@@ -15,9 +14,7 @@ html, body {
 }
 
 /* navigeringsmeny */
-
 .top-nav {
-    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,7 +24,6 @@ html, body {
     height: 50px;
     padding: 1em;
     text-transform: uppercase;
-    
     border-bottom: 1px solid black;
 }
 .menu-button-container {
@@ -80,7 +76,6 @@ html, body {
   transform: rotate(-405deg);
 }
 
-
 .menu {
     flex-wrap: wrap;
     display: flex;
@@ -97,12 +92,7 @@ html, body {
     margin-right: 15px;
     margin-left: 15px;
     display: flex;
-    
 }
-
-
-
-
 
 header {
     border: 0px solid black;
@@ -110,9 +100,7 @@ header {
 
 /*main section */
 main {
-    border: 0px solid #000000;
-    
-    
+    border: 0px solid #000000; 
 }
 
 /*stor logga på toppen av sidor */
@@ -124,8 +112,6 @@ main {
     justify-content: center;
     border: 0px solid black;
     border-bottom: 1px solid black;
-    
-
 }
 
 /*Välkomstmeddelande på landingpage */
@@ -157,8 +143,6 @@ main {
     margin-right: auto;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
-
-
 
 /* formulär för nyhetsbrev */
 .news-form {
@@ -215,7 +199,6 @@ main {
     pointer-events: painted;
     transition: 0.5s;
     font-weight: 1000;
-    
 }
 #submit:hover {
     box-shadow: none;
@@ -223,7 +206,6 @@ main {
 }
 
 /* footer, om oss och kontakt */
-
 footer {
     display: flex;
     flex-direction: column;
@@ -272,17 +254,11 @@ footer {
     pointer-events: painted;
     transition: 0.5s;
     font-weight: 1000;
-
 }
 
 .toppen:hover {
     box-shadow: none;
 }
-
-.toppknapp {
-    
-}
-
 
 /*klasser för innehåll och bilder på internets utveckling, 
 företag och agila metoder*/
@@ -320,7 +296,6 @@ företag och agila metoder*/
     width: 50%;
     padding-left: 1em;
     padding-right: 1em;
-    
 }
 
 .article-container-agil {
@@ -340,14 +315,12 @@ företag och agila metoder*/
     width: 90%;
     padding-left: 1em;
     padding-right: 1em;
-    
 }
 
 .bilder-agil {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .bilder-agil img{
@@ -387,10 +360,8 @@ företag och agila metoder*/
 }
 
 /* Media queries för enheter under 768px bredd */
-
 @media screen and (max-width: 768px)
 {
-
     .menu-button-container {
     display: flex;
     }
@@ -428,7 +399,6 @@ företag och agila metoder*/
         width: 100%;
         color: #ffffff;
         background: linear-gradient(to left, #000dffdb, #00ffd0);
-        
     }
 
     .menu-toggle:checked ~ .menu li:not(:last-child) {
@@ -456,9 +426,6 @@ företag och agila metoder*/
         align-items: center;
         justify-content: center;
         border: 0px solid black;
-        
-        
-
     }
 
     .biglogo img {
@@ -466,20 +433,12 @@ företag och agila metoder*/
         margin-left: auto;
         margin-right: auto;
     }
-
 } 
 
 /* Media queries för enheter under 600px bredd */
-@media only screen and (max-width: 600px)
-{
-    html, body {
-        
-        
-    }
-
-
-    #footer-div {
+@media only screen and (max-width: 600px) {
     
+    #footer-div {
         width: 100%;
         border: 0px solid black;
         border-bottom: 0px solid black;
@@ -487,7 +446,6 @@ företag och agila metoder*/
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
     }
 
     .contact {
@@ -523,6 +481,4 @@ företag och agila metoder*/
     .content, .bilder {
         width: 100%;
     }
-
-
 }
