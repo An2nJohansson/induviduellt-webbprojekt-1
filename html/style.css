@@ -130,6 +130,11 @@ main {
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
+.welcome:hover {
+    transform: scale(1.04);
+    transition: 0.4s;
+}
+
 .video {
     display: flex;
     justify-content: center;
@@ -141,6 +146,11 @@ main {
     margin-left: auto;
     margin-right: auto;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.video:hover {
+    transform: scale(1.04);
+    transition: 0.4s;
 }
 
 iframe {
@@ -165,6 +175,11 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.news-form:hover {
+    transform: scale(1.04);
+    transition: 0.4s;
 }
 
 .form {
@@ -297,6 +312,11 @@ företag och agila metoder*/
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
+.article-container:hover {
+    transform: scale(1.04);
+    transition: 0.4s;
+}
+
 .content {
     border: 0px solid black;
     width: 50%;
@@ -314,6 +334,11 @@ företag och agila metoder*/
     margin-top: 1em;
     margin-bottom: 1em;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.article-container-agil:hover {
+    transform: scale(1.04);
+    transition: 0.4s;
 }
 
 .content-agil {
