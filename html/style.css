@@ -5,6 +5,7 @@ html, body {
     background-size: 100vmax;
     display: flexbox;
     border: 0px solid black;
+    
 }
 
 * {
@@ -101,54 +102,7 @@ html, body {
 
 
 
-    /* Media queries för mobila enheter */
-    @media (max-width: 768px)
-    { 
 
-    .menu-button-container {
-    display: flex;
-    }
-
-    .menu {
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin-top: 50px;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-    #menu-toggle ~ .menu li {
-        height: 0;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        transition: height 400ms cubic-bezier(0.23 , 1, 0.32, 1);
-    }
-
-    #menu-toggle:checked ~ .menu li {
-        border: 1px solid #ffffff;
-        height: 2.5em;
-        padding: 0.5em;
-        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    }
-
-    .menu > li {
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        padding: 0 0;
-        width: 100%;
-        color: #ffffff;
-        background: linear-gradient(to left, #000dffdb, #00ffd0);
-        
-    }
-
-    .menu-toggle:checked ~ .menu li:not(:last-child) {
-        border-bottom: none;
-    }
-} 
 
 header {
     border: 0px solid black;
@@ -430,4 +384,145 @@ företag och agila metoder*/
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+/* Media queries för enheter under 768px bredd */
+
+@media screen and (max-width: 768px)
+{
+
+    .menu-button-container {
+    display: flex;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 50px;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #menu-toggle ~ .menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23 , 1, 0.32, 1);
+    }
+
+    #menu-toggle:checked ~ .menu li {
+        border: 1px solid #ffffff;
+        height: 2.5em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .menu > li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0 0;
+        width: 100%;
+        color: #ffffff;
+        background: linear-gradient(to left, #000dffdb, #00ffd0);
+        
+    }
+
+    .menu-toggle:checked ~ .menu li:not(:last-child) {
+        border-bottom: none;
+    }
+
+    .top-nav {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid black;
+    }
+    
+    /*stor logga på toppen av sidor */
+    .biglogo {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 0px solid black;
+        
+        
+
+    }
+
+    .biglogo img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+} 
+
+/* Media queries för enheter under 600px bredd */
+@media only screen and (max-width: 600px)
+{
+    html, body {
+        
+        
+    }
+
+
+    #footer-div {
+    
+        width: 100%;
+        border: 0px solid black;
+        border-bottom: 0px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .contact {
+        width: 90%;
+        border-radius: 35px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    }
+
+    .about {
+        border: none;
+        width: 90%;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        border-radius: 35px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    }
+
+    .article-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .article-container-agil {
+        width: 90%;
+    }
+    .news-form, .video, .welcome {
+        width: 90%;
+    }
+
+    .content, .bilder {
+        width: 100%;
+    }
+
+
 }
