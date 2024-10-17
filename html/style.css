@@ -2,6 +2,7 @@
 html, body {
     margin: 0;
     background: linear-gradient(to left, #000dffb7, #00ffd0);
+    background-size: 100vmax;
     display: flexbox;
     border: 0px solid black;
 }
@@ -101,7 +102,7 @@ html, body {
 
 
     /* Media queries för mobila enheter */
-    @media (max-width: 700px)
+    @media (max-width: 768px)
     { 
 
     .menu-button-container {
@@ -149,8 +150,12 @@ html, body {
     }
 } 
 
-/*div som täcker hela sidan */
-.container-index {
+header {
+    border: 0px solid black;
+}
+
+/*main section */
+main {
     border: 0px solid #000000;
     
     
@@ -265,7 +270,7 @@ html, body {
 
 /* footer, om oss och kontakt */
 
-.footer-container {
+footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -274,7 +279,7 @@ html, body {
     border-top: 1px solid black;
 }
 
-#footer {
+#footer-div {
     
     width: 100%;
     border: 0px solid black;
