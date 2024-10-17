@@ -1,14 +1,13 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway"); 
+@import url("https://fonts.googleapis.com/css?family=Roboto"); 
 html, body {
     margin: 0;
     background: linear-gradient(to left, #000dffb7, #00ffd0);
     background-size: 100vmax;
-    display: flexbox;
     border: 0px solid black;
 }
 
 * {
-    font-family: "Raleway"; 
+    font-family: "Roboto"; 
     box-sizing: border-box;
     color: #000000;
 }
