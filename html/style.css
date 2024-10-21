@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto"); 
-html, body {
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+html,
+body {
     margin: 0;
     background: linear-gradient(to left, #000dffb7, #00ffd0);
     background-size: 100vmax;
@@ -7,7 +9,7 @@ html, body {
 }
 
 * {
-    font-family: "Roboto"; 
+    font-family: "Roboto";
     box-sizing: border-box;
     color: #000000;
 }
@@ -18,13 +20,14 @@ html, body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color:  #00BAF0;
+    background-color: #00BAF0;
     background: linear-gradient(to left, #000dffb7, #00ffd0);
     height: 50px;
     padding: 1em;
     text-transform: uppercase;
     border-bottom: 1px solid black;
 }
+
 .menu-button-container {
     display: none;
     height: 100%;
@@ -34,11 +37,15 @@ html, body {
     justify-content: center;
     align-items: center;
 }
+
 #menu-toggle {
     display: none;
     color: #fff;
 }
-.menu-button, .menu-button::before, .menu-button::after {
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
     display: block;
     background-color: #fff;
     position: absolute;
@@ -58,21 +65,18 @@ html, body {
     margin-top: 8px;
 }
 
-#menu-toggle:checked + .menu-button-container 
-.menu-button::before {
-  margin-top: 0px;
-  transform: rotate(405deg);
+#menu-toggle:checked+.menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
 }
 
-#menu-toggle:checked + .menu-button-container 
-.menu-button {
-  background: #ffffff00;
+#menu-toggle:checked+.menu-button-container .menu-button {
+    background: #ffffff00;
 }
 
-#menu-toggle:checked + .menu-button-container 
-.menu-button::after {
-  margin-top: 0px;
-  transform: rotate(-405deg);
+#menu-toggle:checked+.menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
 }
 
 .menu {
@@ -86,7 +90,7 @@ html, body {
     padding: 0;
 }
 
-.menu > li {
+.menu>li {
     overflow: hidden;
     margin-right: 15px;
     margin-left: 15px;
@@ -99,7 +103,7 @@ header {
 
 /*main section */
 main {
-    border: 0px solid #000000; 
+    border: 0px solid #000000;
 }
 
 /*stor logga på toppen av sidor */
@@ -221,6 +225,7 @@ iframe {
     transition: 0.5s;
     font-weight: 1000;
 }
+
 #submit:hover {
     box-shadow: none;
     color: green;
@@ -237,7 +242,7 @@ footer {
 }
 
 #footer-div {
-    
+
     width: 100%;
     border: 0px solid black;
     border-bottom: 0px solid black;
@@ -354,7 +359,7 @@ företag och agila metoder*/
     align-items: center;
 }
 
-.bilder-agil img{
+.bilder-agil img {
     max-width: 15em;
     min-width: 10em;
     border-radius: 35px;
@@ -391,10 +396,9 @@ företag och agila metoder*/
 }
 
 /* Media queries för enheter under 768px bredd */
-@media screen and (max-width: 768px)
-{
+@media screen and (max-width: 768px) {
     .menu-button-container {
-    display: flex;
+        display: flex;
     }
 
     .menu {
@@ -407,22 +411,23 @@ företag och agila metoder*/
         justify-content: center;
         align-items: center;
     }
-    #menu-toggle ~ .menu li {
+
+    #menu-toggle~.menu li {
         height: 0;
         margin: 0;
         padding: 0;
         border: 0;
-        transition: height 400ms cubic-bezier(0.23 , 1, 0.32, 1);
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
 
-    #menu-toggle:checked ~ .menu li {
+    #menu-toggle:checked~.menu li {
         border: 1px solid #ffffff;
         height: 2.5em;
         padding: 0.5em;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
 
-    .menu > li {
+    .menu>li {
         display: flex;
         justify-content: center;
         margin: 0;
@@ -432,7 +437,7 @@ företag och agila metoder*/
         background: linear-gradient(to left, #000dffdb, #00ffd0);
     }
 
-    .menu-toggle:checked ~ .menu li:not(:last-child) {
+    .menu-toggle:checked~.menu li:not(:last-child) {
         border-bottom: none;
     }
 
@@ -448,7 +453,7 @@ företag och agila metoder*/
         align-items: center;
         border-bottom: 1px solid black;
     }
-    
+
     /*stor logga på toppen av sidor */
     .biglogo {
         width: 80%;
@@ -473,11 +478,11 @@ företag och agila metoder*/
         width: 90%;
         border-radius: 35px;
     }
-} 
+}
 
 /* Media queries för enheter under 600px bredd */
 @media only screen and (max-width: 600px) {
-    
+
     #footer-div {
         width: 100%;
         border: 0px solid black;
@@ -514,11 +519,15 @@ företag och agila metoder*/
     .article-container-agil {
         width: 90%;
     }
-    .news-form, .video, .welcome {
+
+    .news-form,
+    .video,
+    .welcome {
         width: 90%;
     }
 
-    .content, .bilder {
+    .content,
+    .bilder {
         width: 100%;
     }
 }
