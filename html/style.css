@@ -3,7 +3,7 @@
 html,
 body {
     margin: 0;
-    background: linear-gradient(to left, #000dffb7, #00ffd0);
+    background: #171719;
     background-size: 100vmax;
     border: 0px solid black;
 }
@@ -11,7 +11,7 @@ body {
 * {
     font-family: "Roboto";
     box-sizing: border-box;
-    color: #000000;
+    color: #E0E0E0;
 }
 
 /* navigeringsmeny */
@@ -20,8 +20,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #00BAF0;
-    background: linear-gradient(to left, #000dffb7, #00ffd0);
+    background: #333333;
     height: 50px;
     padding: 1em;
     text-transform: uppercase;
@@ -40,14 +39,14 @@ body {
 
 #menu-toggle {
     display: none;
-    color: #fff;
+    color: #E0E0E0;
 }
 
 .menu-button,
 .menu-button::before,
 .menu-button::after {
     display: block;
-    background-color: #fff;
+    background-color: #E0E0E0;
     position: absolute;
     height: 4px;
     width: 30px;
@@ -99,6 +98,7 @@ body {
 
 header {
     border: 0px solid black;
+    
 }
 
 /*main section */
@@ -119,6 +119,7 @@ main {
 
 /*Välkomstmeddelande på landingpage */
 .welcome {
+    background:  #333333;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,11 +128,11 @@ main {
     border-radius: 35px;
     width: 70%;
     padding: 1em 1em 1em 1em;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 2em;
+    margin-bottom: 3em;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    box-shadow: #00BAF0 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 .welcome:hover {
@@ -140,16 +141,17 @@ main {
 }
 
 .video {
+    background:  #333333;
     display: flex;
     justify-content: center;
     border-radius: 35px;
     width: 70%;
     padding: 1em 1em 1em 1em;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 3em;
+    margin-bottom: 3em;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    box-shadow: #00BAF0 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 .video:hover {
@@ -163,6 +165,7 @@ iframe {
 
 /* formulär för nyhetsbrev */
 .news-form {
+    background:  #333333;
     width: 70%;
     display: flex;
     flex-direction: row;
@@ -174,11 +177,11 @@ iframe {
     border-top: 0px solid black;
     border-radius: 35px;
     padding: 1em 1em 1em 1em;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 3em;
+    margin-bottom: 3em;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    box-shadow: #00BAF0 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 .news-form:hover {
@@ -191,7 +194,7 @@ iframe {
 }
 
 #fname {
-    background-color: #e6e6e6;
+    background-color: #E0E0E0;
     width: 100%;
     height: 35px;
     margin-bottom: 1em;
@@ -202,7 +205,7 @@ iframe {
 }
 
 #email {
-    background-color: #e6e6e6;
+    background-color: #E0E0E0;
     width: 100%;
     height: 35px;
     margin-bottom: 1em;
@@ -213,13 +216,14 @@ iframe {
 }
 
 #submit {
-    background-color: #e6e6e6;
+    background-color: #E0E0E0;
+    color: #171719;
     width: 100%;
     height: 35px;
     margin-bottom: 1em;
     border-radius: 50px;
     border: none;
-    box-shadow: 2px 4px 9px #000000d4, -2px -4px 9px #ffffffb3;
+    box-shadow: 2px 4px 9px #00BAF0, -2px -4px 9px #00BAF0;
     cursor: pointer;
     pointer-events: painted;
     transition: 0.5s;
@@ -237,7 +241,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to left, #000dffb7, #00ffd0);
+    background: #333333;
     border-top: 1px solid black;
 }
 
@@ -266,7 +270,7 @@ footer {
 }
 
 .toppen {
-    background-color: #e6e6e6;
+    background-color: #E0E0E0;
     width: 100%;
     height: 3em;
     margin-bottom: 2em;
@@ -275,15 +279,24 @@ footer {
     margin-right: auto;
     border-radius: 50px;
     border: none;
-    box-shadow: 2px 4px 9px #000000d4, -2px -4px 9px #ffffffb3;
+    box-shadow: 2px 4px 9px #00BAF0, -2px -4px 9px #00BAF0;
     cursor: pointer;
     pointer-events: painted;
     transition: 0.5s;
     font-weight: 1000;
 }
 
+.toppen a {
+    color: #171719;
+}
+
 .toppen:hover {
     box-shadow: none;
+    color: green;
+}
+
+.toppen a:hover {
+    color: green;
 }
 
 /*klasser för innehåll och bilder på internets utveckling, 
@@ -307,14 +320,15 @@ företag och agila metoder*/
 }
 
 .article-container {
+    background:  #333333;
     display: flex;
     border: 0px solid black;
     border-radius: 35px;
     width: 70%;
     padding: 1em 1em 1em 1em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    box-shadow: #00BAF0 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 .article-container:hover {
@@ -330,15 +344,16 @@ företag och agila metoder*/
 }
 
 .article-container-agil {
+    background:  #333333;
     display: flex;
     flex-direction: column;
     border: 0px solid black;
     border-radius: 35px;
     width: 70%;
     padding: 1em 1em 1em 1em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    box-shadow: #00BAF0 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 .article-container-agil:hover {
@@ -421,7 +436,7 @@ företag och agila metoder*/
     }
 
     #menu-toggle:checked~.menu li {
-        border: 1px solid #ffffff;
+        border: 1px solid #E0E0E0;
         height: 2.5em;
         padding: 0.5em;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -433,8 +448,8 @@ företag och agila metoder*/
         margin: 0;
         padding: 0 0;
         width: 100%;
-        color: #ffffff;
-        background: linear-gradient(to left, #000dffdb, #00ffd0);
+        color: #E0E0E0;
+        background: #333333;
     }
 
     .menu-toggle:checked~.menu li:not(:last-child) {
@@ -483,6 +498,10 @@ företag och agila metoder*/
 /* Media queries för enheter under 600px bredd */
 @media only screen and (max-width: 600px) {
 
+    footer {
+        background: #171719;
+    }
+    
     #footer-div {
         width: 100%;
         border: 0px solid black;
@@ -495,12 +514,14 @@ företag och agila metoder*/
 
     .contact {
         width: 90%;
+        background: #333333;
         border-radius: 35px;
         box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     }
 
     .about {
         border: none;
+        background: #333333;
         width: 90%;
         margin-bottom: 1em;
         margin-top: 1em;
