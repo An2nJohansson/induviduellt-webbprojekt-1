@@ -25,6 +25,7 @@ body {
     padding: 1em;
     text-transform: uppercase;
     border-bottom: 1px solid black;
+    box-shadow: 0px 2px 6px #00BAF0;
 }
 
 .menu-button-container {
@@ -114,6 +115,7 @@ main {
     align-items: center;
     justify-content: center;
     border: 0px solid black;
+    margin-top: 0.5em;
     border-bottom: 1px solid black;
 }
 
@@ -243,6 +245,7 @@ footer {
     align-items: center;
     background: #333333;
     border-top: 1px solid black;
+    box-shadow: -0px -2px 6px #00BAF0;
 }
 
 #footer-div {
